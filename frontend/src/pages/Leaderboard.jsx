@@ -18,7 +18,7 @@ function Leaderboard() {
     const fetchLeaderboard = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/scores/leaderboard"
+         "https://quiz-app-l73l.onrender.com/api/scores/leaderboard"
         );
 
         setScores(response.data);

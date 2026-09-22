@@ -49,7 +49,7 @@ function Result() {
     setError("");
 
     try {
-      await axios.post("http://localhost:5000/api/scores", {
+await axios.post("https://quiz-app-l73l.onrender.com/api/scores", {
         name: name.trim(),
         score,
         total,
